@@ -52,6 +52,9 @@ react {
 
     /* Autolinking */
     autolinkLibrariesWithApp()
+
+    // Add this line with the full Node path
+    nodeExecutableAndArgs = ["/opt/homebrew/bin/node"]
 }
 
 /**
